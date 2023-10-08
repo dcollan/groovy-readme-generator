@@ -84,11 +84,25 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    // Writes data to file by utilizing generateMarkdown variable which links to generateMarkdown.js file
+    fs.writeFile(fileName, generateMarkdown(data), function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    });
+}
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    // Receive 'questions' array and creates data for it
+    inquirer.prompt(questions).then((data) => {
+        console.log(JSON.stringify(data, null, " "));
+        // Utilizes writeToFile function to send data off to Assets folder
+        writeToFile("./Assets/README.md", data);
+    });
+}
 
 
 // Function call to initialize app
