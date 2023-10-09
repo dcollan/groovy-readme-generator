@@ -72,8 +72,8 @@ function renderLicenseSection(license) {
     if (license) {
     // Receive license name and license link by calling renderLicenseLink() function
     return `
-    # License
-    You are currently using the [${license}](${renderLicenseLink(license)}) license.
+# License
+You are currently using the [${license}](${renderLicenseLink(license)}) license.
     `;
     } else {
         return "";
@@ -88,38 +88,38 @@ function generateMarkdown(data) {
     const licenseSection = renderLicenseSection(data.license);
   
     return `
-      # Project Title
-      ${data.title}
-      ${licenseBadge}
+# Project Title
+${data.title}
+${licenseBadge}
   
-      # Description
-      ${data.description}
+# Description
+${data.description}
   
-      # Table of Contents 
-      * [Installation](#-Installation)
-      * [Usage](#-Usage)
-      * [License](#-License)
-      * [Contributing](#-Contributing)
-      * [Tests](#-Tests)
-      * [Questions](#-Contact-Information)
+# Table of Contents 
+* [Installation](#-Installation)
+* [Usage](#-Usage)
+* [License](#-License)
+* [Contributing](#-Contributing)
+* [Tests](#-Tests)
+* [Questions](#-Contact-Information)
   
-      # Installation
-      ${data.installation}
+# Installation
+${data.installation}
   
-      # Usage
-      ${data.usage}
+# Usage
+${data.usage}
   
-      ${licenseSection}
+${licenseSection}
   
-      # Contributing 
-      ${data.contributing}
+# Contributing 
+${data.contributing}
   
-      # Tests
-      ${data.tests}
+# Tests
+${data.tests}
   
-      # Contact Information 
-      * GitHub Username: ${data.userName}
-      * Contact Email: ${data.userEmail}
+# Contact Information 
+* GitHub Username: ${data.userName}
+* Contact Email: ${data.userEmail}
   `;
   }
   module.exports = generateMarkdown;
