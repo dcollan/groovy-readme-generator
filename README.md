@@ -34,6 +34,9 @@ Provided with an index.js and generateMarkdown.js file with empty functions, com
 
 ![img](./Assets/readme-screenshot.png)
 
+## Link to Video
+
+https://www.youtube.com/watch?v=BGW5I8wH-Gg
 
 ## How to Run
 
