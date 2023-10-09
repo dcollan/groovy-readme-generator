@@ -101,7 +101,7 @@ ${data.description}
 * [License](#-License)
 * [Contributing](#-Contributing)
 * [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Contact Information](#-Contact-Information)
   
 # Installation
 ${data.installation}

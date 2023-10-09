@@ -12,7 +12,7 @@ To be able to generate a README.md file through answering a series of prompts us
 * [License](#-License)
 * [Contributing](#-Contributing)
 * [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Contact Information](#-Contact-Information)
   
 # Installation
 Simply run 'npm install' to immediately download the necessary dependencies onto your system, where this will generate a new 'node_modules' folder for you
@@ -29,7 +29,7 @@ You are currently using the [MIT](https://opensource.org/licenses/MIT) license.
 The project is open to all for development. Simply reach out to the owner of the project, Danny Collan, for more info.
   
 # Tests
-As you run 'node index.js' and have successfully answered all prompts, a new README.md file will be displayed inside of the 'Assets' folder. To view it in play, simply visit the file via the link to the repository at  ttps://github.com/dcollan/groovy-readme-generator/tree/main
+As you run 'node index.js' and have successfully answered all prompts, a new README.md file will be displayed inside of the 'Assets' folder. To view it in play, simply visit the file via the link to the repository at https://github.com/dcollan/groovy-readme-generator/tree/main
   
 # Contact Information 
 * GitHub Username: dcollan
